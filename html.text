@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charser="utf-8 />
+<meta name="viewport" content="width=device-width intial-scale=1.0 />
+<title>my code| Mcygraph</title>
+<script src="https://font"</script>
+<link stylesheet ref="./style.css>
+</head>
+<body>
+   <div class="container">
+   <input type="checkbox" id="switch">
+    <div class="outer">
+     <div class="content">
+     <label for="">
+     <span class="toggle">
+     <span class="circle"></span>
+     </span>
+     </lable>
+      <div class="image">
+     <!-- <img src="img.jpg alt
+  </div>
+   <div class="name">John</div>
+   <div class="job">Stock Trader</div>
+   <p>The best part about being a live Trader is that you get to learn alot</p>
+   <Button>Read More</button>
+   <div class="media-icons">
+    <a href="#"><i class="fab fab-facebook"></i></a>
+    <a href="#"><i class="fab fab-twitter"></i></a>
+    <a href="#"><i class="fa fab-linked-in"></i></a>#00F7FF
+   </div>
+ </body>
+</html>

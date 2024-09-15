@@ -1,0 +1,143 @@
+@import url(https//:font)
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.outer {
+    height: 100vh;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer .content {
+    display: flex;
+    max-width: 470px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 11px;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0 0 0 0.15);
+}
+#switch:checked ~ outer .content {
+    background: 092e3e;
+}
+
+.content .toggle {
+    position: absolute;
+    right: 14px;
+    top: 11px;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    background: #092e3e;
+    display: flex;
+    align-items: center;
+}
+
+.toggle .circle {
+    height: 16px;
+    width: 16px;
+    background: #fff;
+    border-radius: 50px;
+}
+
+#switch:checked ~ toggle .circle {
+    margin-left: 23px;
+}
+
+.content .image-box {
+    height: 230px;
+    width: 200px;
+}
+
+#switch:checked ~ outer .image-box {
+    box-shadow: 0px 5px 10px rgba(0 0 0 0.15);
+}
+
+.content .image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#switch:checked ~ outer .image-box img{
+    border-color: transparent;
+}
+
+.content .details {
+    width: 52%;
+    margin: 10px 0px 20px 20px;
+}
+
+#switch:checked ~ outer .details {
+    color: #fff;
+}
+
+.content .details .name {
+    font-size: 20px;
+    font-weight: 590;
+}
+
+.content .details .job {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content .details p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.content .details button {
+    display: block;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 14px;
+    margin-top: 14px;
+    background: #092e3e;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 3s ease;
+}
+
+#switch:checked ~ outer button {
+    color: #092e3e;
+    background: #fff;
+}
+
+.content button:hover {
+    transform: scale(0.97);
+}
+
+.content .details .media-icons {
+    position: absolute;
+    bottom: 15pc;
+}
+
+.content .details .media-icons a {
+    display: inline-flex;
+    margin: 0 4px;
+    color: #092e3e;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+#switch:checked ~ media-icons {
+    color: #fff;
+    opacity: 1;
+}
+
+.content .media-icons a:hover {
+    opacity: 1;
+}
+
+#switch {
+    display: none;
+}
